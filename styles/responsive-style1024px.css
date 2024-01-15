@@ -1,0 +1,196 @@
+@media screen and (min-width:769px) and (max-width:1024px) {
+    /* banner section start */
+    .banner{
+        height: 25rem;
+    }
+    .banner-title{
+        font-size: 1.1rem;
+        padding-bottom: 0.5rem;
+    }
+    .banner-heading{
+        max-width: 89% ;
+        font-size: 2.3rem;
+    padding: 0;
+    width: 19rem;
+    }
+    /* banner section stop */
+     /* party section start */
+     .party-section{
+        background-size: 85vw;
+        max-height: 24.5rem;
+    }
+    .party-container{
+        max-width: 60%;
+       margin-left: 3rem;
+
+    }
+    .party-title{
+        width: 16rem;
+        font-size: 2rem;
+        padding: 7rem 0 0 0 ;
+        margin-left: 4rem;
+    }
+    .party-description{
+        font-size: 1rem;
+        width: 26rem;
+        padding: .3rem 0 0 4rem;
+
+    }
+    .party-button{
+        font-size: 1rem;
+        margin: 0.8rem 14rem 0 6rem;
+      }
+      .party-image{
+        height: 18rem;
+        width: 14rem;
+        margin: 3rem 4.5rem 0 0;
+      }
+    /* party section stop */
+
+    /* join section start */
+    .join-section{
+        height: 21rem;
+    }
+    /* join section stop */
+
+     /* best offer section start */
+  
+  .part-left, .part-middle, .part-right{
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+  .offer-heading{
+    font-size: 1.2rem;
+  }
+  .best-offer-title, .year-logo{
+    font-size: 2rem;
+  }
+.best-offer-image{
+    height: 16rem ;   
+    width: 16rem ;
+}
+  /* best offer section stop */
+
+  /* holiday section start */
+
+
+  .holiday-heading{
+    font-size: 1.5rem;
+  }
+  .holiday-title {
+    font-size: 2.5rem;
+  }
+  .holiday-title .text-red{
+    font-size: 2.5rem;
+  }
+  .holiday-description {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  .holiday-image-container{
+    height: 24rem;
+  }
+  .holiday-image-1 {
+    width: 11rem;
+    top: 3.75rem;
+    right: 9.5rem;
+}
+.holiday-image-2 {
+  width: 15rem;
+  bottom: 7.5rem;
+}
+.holiday-image-3 {
+  width: 20.75rem;
+  height: 17.5rem;
+  left: 4.25rem;
+  bottom: 2.625rem;
+}
+.holiday-image-4 {
+  height: 7rem;
+}
+  /* holiday section stop */
+
+  /* portfolio section start */
+  .portfolio-description, .portfolio-heading, .portfolio-title{
+    width: 100%;
+    text-align: center;
+   }
+   .portfolio-heading{
+    font-size: 1.2rem;
+   }
+   .portfolio-title{
+    font-size: 2.5rem;
+   }
+   .portfolio-description{
+    font-size: 1rem;
+   }
+   .portfolio-image-container{
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  }
+  .portfolio-image-container > img {
+    width: 17.5rem;
+    height: 17.125rem;
+}
+.portfolio-image-container  img:hover{
+  border: 5px solid #b29ddb;
+  border-radius: 16px;
+  transform: rotate(5deg);
+  transition: transform 0.25s ease-in-out;
+}
+   /* portfolio section stop */
+
+   /* subscribe section start */
+.subscribe-section{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  row-gap: 1rem;
+}
+   .email-icon{
+    width: 9rem;
+   }
+.subscribe-title{
+  font-size: 2.5rem;
+}
+.subscribe-description{
+  font-size: 1.2rem;
+}
+
+#input-box{
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+.subscribe-button{
+  width: 13rem;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+
+
+
+/* subscribe section stop */
+
+/* footer section start */
+
+.footer-container-1, .footer-container-2{
+  padding:2.5rem 0;
+}
+.address, .contact, .copyright, .unsubscribe{
+
+font-size: 1.2rem;
+}
+.icon-1, .icon-2,.icon-3,.icon-4{
+  width: 4rem;
+}
+.footer-icon-container{
+  margin: 1rem 16rem;
+}
+
+/* footer section stop */
+
+}
